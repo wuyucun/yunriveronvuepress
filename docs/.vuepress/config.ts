@@ -114,7 +114,7 @@ export default defineUserConfig({
     //     rust: true,       // ::: rust-repl
     //     kotlin: true,     // ::: kotlin-repl
     //     python: true,     // ::: python-repl
-    //   },
+        },
          math: {             // 启用数学公式
            type: 'katex',
          },
@@ -122,7 +122,7 @@ export default defineUserConfig({
     //   echarts: true,      // 启用 ECharts
     //   mermaid: true,      // 启用 mermaid
     //   flowchart: true,    // 启用 flowchart
-    //   image: {
+     image: {
     //     figure: true,     // 启用 figure
            lazyload: true,   // 启用图片懒加载
     //     mark: true,       // 启用图片标记
