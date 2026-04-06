@@ -8,9 +8,9 @@ import { defineNavbarConfig } from 'vuepress-theme-plume'
 
 export default defineNavbarConfig([
   { text: '首页', link: '/' },
-  { text: '生活记录', link: '/lifedoc/' },
-  { text: '标签', link: '/invest/' },
-  { text: '归档', link: '/health/' },
+  { text: '生活记', link: '/lifedoc/' },
+  { text: '投资记', link: '/invest/' },
+  { text: '健康记', link: '/health/' },
   { text: '博客', link: 'https://wyc.cc/' },
  // {
   //  text: '笔记',
