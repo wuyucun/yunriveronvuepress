@@ -101,7 +101,6 @@ const health = defineCollection({
  * (demoDoc 为参考示例，如果不需要它，请删除)
  */
 export default defineCollections([
-
   lifeDoc,
  investDoc,
 health,

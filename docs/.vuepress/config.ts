@@ -29,7 +29,7 @@ export default defineUserConfig({
 
   theme: plumeTheme({
     /* 添加您的部署域名, 有助于 SEO, 生成 sitemap */
-    // hostname: 'https://your_site_url',
+    hostname: 'https://yunriver.com',
 
     /* 文档仓库配置，用于 editLink */
     // docsRepo: '',
@@ -38,7 +38,7 @@ export default defineUserConfig({
 
     /* 页内信息 */
     // editLink: true,
-    // lastUpdated: true,
+      lastUpdated: true,
     // contributors: true,
     // changelog: false,
 
@@ -52,11 +52,11 @@ export default defineUserConfig({
      * 为 markdown 文件自动添加 frontmatter 配置
      * @see https://theme-plume.vuejs.press/config/theme/#autofrontmatter
      */
-    // autoFrontmatter: {
-    //   permalink: true,  // 是否生成永久链接
-    //   createTime: true, // 是否生成创建时间
-    //   title: true,      // 是否生成标题
-    // },
+     autoFrontmatter: {
+       permalink: true,  // 是否生成永久链接
+       createTime: true, // 是否生成创建时间
+       title: true,      // 是否生成标题
+     },
 
     /* 本地搜索, 默认启用 */
     search: { provider: 'local' },
@@ -84,13 +84,13 @@ export default defineUserConfig({
     // },
 
     /* 文章字数统计、阅读时间，设置为 false 则禁用 */
-    // readingTime: true,
+     readingTime: true,
 
     /**
      * markdown
      * @see https://theme-plume.vuejs.press/config/markdown/
      */
-    // markdown: {
+    markdown: {
     //   abbr: true,         // 启用 abbr 语法  *[label]: content
     //   annotation: true,   // 启用 annotation 语法  [+label]: content
     //   pdf: true,          // 启用 PDF 嵌入 @[pdf](/xxx.pdf)
@@ -130,7 +130,7 @@ export default defineUserConfig({
     //   },
     //   include: true,      // 在 Markdown 文件中导入其他 markdown 文件内容
     //   imageSize: 'local', // 启用 自动填充 图片宽高属性，避免页面抖动
-    // },
+     },
 
     /**
      * 水印
