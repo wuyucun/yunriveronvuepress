@@ -1,4 +1,4 @@
-/**
+﻿/**
  * 查看以下文档了解主题配置
  * - @see https://theme-plume.vuejs.press/config/intro/ 配置说明
  * - @see https://theme-plume.vuejs.press/config/theme/ 主题配置项
@@ -39,7 +39,7 @@ export default defineUserConfig({
     /* 页内信息 */
     // editLink: true,
       lastUpdated: true,
-    // contributors: true,
+      contributors: false,
     // changelog: false,
 
     /**
